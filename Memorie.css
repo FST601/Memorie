@@ -1,0 +1,24 @@
+html{
+
+}
+
+.reihe {
+    text-align: center;
+}
+
+.bild{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 0;
+}
+
+.bild:hover{
+    background-color: dimgray;
+}
+h1{
+    height: 16px;
+    color: red;
+    text-align: center;
+}
