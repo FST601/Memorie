@@ -1,24 +1,23 @@
-html{
-
-}
-
 .reihe {
     text-align: center;
 }
 
-.bild{
-    display: inline-block;
+.bild {
+    display: inline-grid;
     width: 150px;
     height: 150px;
-    background-color: white;
-    border: 0;
-}
-
-.bild:hover{
-    background-color: dimgray;
 }
 h1{
     height: 16px;
     color: red;
     text-align: center;
+}
+
+h2 {
+    height: 16px;
+    color: red;
+}
+#ergebnis {
+    color: red;
+    font-size: 20px;
 }

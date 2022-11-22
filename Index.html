@@ -3,34 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Memorie.css">
-    <link rel="script" href="hello.js">
+    <script type="text/javascript" src="hello.js"></script>
     <title>Memorie Spiel</title>
 </head>
 <body background="https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png">
 <h1>Star Wars Memorie</h1>
+<section id="ergebnis">
+<div id="spieler1">
+    Spieler1:
+</div>
+<div id="punkteSpieler1">
+    Punkte:
+</div>
+    <br>
+    <br>
+<div id="spieler2">
+    Spieler2:
+</div>
+<div id="punkteSpieler2">
+    Punkte:
+</div>
+</section>
 <div class="reihe">
-    <div id="1" class="bild"> <img src="https://lumiere-a.akamaihd.net/v1/images/Count-Dooku_4f552149.jpeg?region=0%2C0%2C1436%2C808&width=1200" height="150px" width="150px"></div>
-    <div id="2" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/Count-Dooku_4f552149.jpeg?region=0%2C0%2C1436%2C808&width=1200" height="150px" width="150px"></div>
-    <div id="3" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=0%2C67%2C1280%2C720&width=960" height="150px" width="150px"></div>
-    <div id="4" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg?region=0%2C67%2C1280%2C720&width=960" height="150px" width="150px"></div>
+    <div id="1" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"  onclick="test()"></div>
+    <div id="2" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="3" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="4" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
 </div>
 <div class="reihe">
-    <div id="5" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine-darth-sidious-main_3d82ddaa.jpeg?region=164%2C0%2C953%2C536" height="150px" width="150px"></div>
-    <div id="6" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine-darth-sidious-main_3d82ddaa.jpeg?region=164%2C0%2C953%2C536" height="150px" width="150px"></div>
-    <div id="7" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606" height="150px" width="150px"></div>
-    <div id="8" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606" height="150px" width="150px"></div>
+    <div id="5" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="6" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="7" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="8" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
 </div>
 <div class="reihe">
-    <div id="9" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg?region=75%2C42%2C1525%2C858&width=1200" height="150px" width="150px"></div>
-    <div id="10" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/Darth-Maul_632eb5af.jpeg?region=75%2C42%2C1525%2C858&width=1200" height="150px" width="150px"></div>
-    <div id="11" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/stormtrooper-main_011e064e.jpeg?region=0%2C85%2C1619%2C911&width=1200" height="150px" width="150px"></div>
-    <div id="12" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/stormtrooper-main_011e064e.jpeg?region=0%2C85%2C1619%2C911&width=1200" height="150px" width="150px"></div>
+    <div id="9" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="10" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="11" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="12" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
 </div>
 <div class="reihe">
-    <div id="13" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/databank_jangofett_01_169_884cefab.jpeg?region=0%2C0%2C1560%2C878&width=1200" height="150px" width="150px"></div>
-    <div id="14" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/databank_jangofett_01_169_884cefab.jpeg?region=0%2C0%2C1560%2C878&width=1200" height="150px" width="150px"></div>
-    <div id="15" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/General-Grievous_c9df9cb5.jpeg?region=0%2C0%2C1200%2C675" height="150px" width="150px"></div>
-    <div id="16" class="bild"><img src="https://lumiere-a.akamaihd.net/v1/images/General-Grievous_c9df9cb5.jpeg?region=0%2C0%2C1200%2C675" height="150px" width="150px"></div>
+    <div id="13" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="14" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="15" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
+    <div id="16" class="bild"><img
+            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
+            height="150px" width="150px"></div>
 </div>
 </body>
 </html>
