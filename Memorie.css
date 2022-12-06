@@ -1,23 +1,10 @@
-.reihe {
+#Ergebnis{
+    color: red;
     text-align: center;
+    font-size: 30px;
 }
 
-.bild {
-    display: inline-grid;
-    width: 150px;
-    height: 150px;
-}
 h1{
-    height: 16px;
-    color: red;
+    color:red;
     text-align: center;
-}
-
-h2 {
-    height: 16px;
-    color: red;
-}
-#ergebnis {
-    color: red;
-    font-size: 20px;
 }

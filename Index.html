@@ -2,87 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Memorie</title>
     <link rel="stylesheet" href="Memorie.css">
-    <script type="text/javascript" src="hello.js"></script>
-    <title>Memorie Spiel</title>
+    <script type="text/javascript" src="Memorie.js"></script>
 </head>
 <body background="https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png" onload="getPlayer()">
 <h1>Star Wars Memorie</h1>
-<section id = "ergebnis">
-<div id ="spielerEins">
-    Spieler1:
-</div>
-<div id ="punkteSpieler1">
-    Punkte:
-</div>
-    <br>
-    <br>
-<div id ="spielerZwei">
-    Spieler2:
-</div>
-<div  id ="punkteSpieler2">
-    Punkte:
-</div>
-</section>
-
-<div class="reihe">
-    <div class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar1" id="1"
-            onclick="test()"></div>
-    <div class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar1" id="2"
-            onclick="test2()">
+<section id="Ergebnis">
+    <div id="spielerEins">
+        Spieler1:
     </div>
-    <div id="3" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar2"></div>
-    <div id="4" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar2"></div>
-</div>
-<div class="reihe">
-    <div id="5" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar3"></div>
-    <div id="6" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar3"></div>
-    <div id="7" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar4"></div>
-    <div id="8" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar4"></div>
-</div>
-<div class="reihe">
-    <div id="9" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar5"></div>
-    <div id="10" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar5"></div>
-    <div id="11" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar6"></div>
-    <div id="12" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar6"></div>
-</div>
-<div class="reihe">
-    <div id="13" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar7"></div>
-    <div id="14" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar7"></div>
-    <div id="15" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar8"></div>
-    <div id="16" class="bild"><img
-            src="https://www.blengaone.de/bonedata/uploads/2021/12/Star-Wars-Project_Logo-150x150.jpg"
-            height="150px" width="150px" class="paar8"></div>
-</div>
+    <div>
+        Punkte:
+    </div>
+    <div id="spielerZwei">
+        Spieler2:
+    </div>
+    <div>
+        Punkte:
+    </div>
+</section>
+<table>
+    <tr>
+        <td class="paar1"></td>
+        <td class="paar1"></td>
+        <td class="paar2"></td>
+        <td class="paar2"></td>
+    </tr>
+    <tr>
+        <td class="paar3"></td>
+        <td class="paar3"></td>
+        <td class="paar4"></td>
+        <td class="paar4"></td>
+    </tr>
+    <tr>
+        <td class="paar5"></td>
+        <td class="paar5"></td>
+        <td class="paar6"></td>
+        <td class="paar6"></td>
+    </tr>
+    <tr>
+        <td class="paar7"></td>
+        <td class="paar7"></td>
+        <td class="paar8"></td>
+        <td class="paar8"></td>
+    </tr>
+</table>
+
 </body>
 </html>
